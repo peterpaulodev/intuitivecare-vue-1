@@ -1,37 +1,58 @@
 {
-  "name": "intuitivecare-vue-1555",
-  "bucket": "intuitivecare-vue-1555",
-  "template": "vue",
+  "name": "intuitivecare-vue-1431",
+  "bucket": "intuitivecare-vue-1431",
+  "preset": "vue",
   "mode": "deliver",
   "env": "production",
-  "prefix": "20240423175647",
+  "prefix": "20240423184250",
+  "not-first-run": true,
   "function": {
-    "id": 45977,
+    "id": 20617,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "./azion/args.json",
-    "instance-id": 50354,
+    "instance-id": 20259,
     "instance-name": "__DEFAULT__"
   },
   "application": {
-    "id": 1713894474,
+    "id": 1713899024,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1713891614,
+    "id": 1713897700,
     "name": "__DEFAULT__"
   },
   "rt-purge": {
     "purge_on_publish": true
   },
-  "origin": {
-    "single-origin-id": 0,
-    "storage-origin-id": 0,
-    "storage-origin-key": "",
-    "name": "__DEFAULT__",
-    "address": null
-  },
+  "origin": [
+    {
+      "origin-id": 126863,
+      "origin-key": "be980061-42a9-42d5-9982-6c6a178b8f69",
+      "name": "intuitivecare-vue-1431_single"
+    },
+    {
+      "origin-id": 126864,
+      "origin-key": "e5552da1-4e05-426d-997e-fecef4f48669",
+      "name": "origin-storage-default"
+    }
+  ],
   "rules-engine": {
-    "created": true
-  }
+    "created": false,
+    "rules": [
+      {
+        "id": 237748,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 237749,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 237750,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
 }
