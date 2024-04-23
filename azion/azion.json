@@ -1,24 +1,24 @@
 {
-  "name": "intuitivecare-vue-133321",
-  "bucket": "intuitivecare-vue-133321",
+  "name": "intuitivecare-vue-1555",
+  "bucket": "intuitivecare-vue-1555",
   "template": "vue",
   "mode": "deliver",
   "env": "production",
-  "prefix": "20240423165642",
+  "prefix": "20240423175647",
   "function": {
-    "id": 45974,
+    "id": 45977,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "./azion/args.json",
-    "instance-id": 50351,
+    "instance-id": 50354,
     "instance-name": "__DEFAULT__"
   },
   "application": {
-    "id": 1713894469,
+    "id": 1713894474,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1713891611,
+    "id": 1713891614,
     "name": "__DEFAULT__"
   },
   "rt-purge": {
