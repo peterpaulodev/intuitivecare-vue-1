@@ -1,25 +1,25 @@
 {
-  "name": "intuitivecare-vue-1-20240424175837",
-  "bucket": "intuitivecare-vue-1-20240424175837",
+  "name": "intuitivecare-vue-1-20240425102612",
+  "bucket": "intuitivecare-vue-1-20240425102612",
   "preset": "vue",
   "mode": "deliver",
   "env": "production",
-  "prefix": "20240424210027",
+  "prefix": "20240425132759",
   "not-first-run": true,
   "function": {
-    "id": 46076,
+    "id": 21006,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "./azion/args.json",
-    "instance-id": 50467,
+    "instance-id": 20636,
     "instance-name": "__DEFAULT__"
   },
   "application": {
-    "id": 1713995139,
+    "id": 1714059632,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1713991873,
+    "id": 1714058420,
     "name": "__DEFAULT__"
   },
   "rt-purge": {
@@ -27,13 +27,13 @@
   },
   "origin": [
     {
-      "origin-id": 353713,
-      "origin-key": "6a56af16-ab41-4784-8f72-3fc038752420",
-      "name": "intuitivecare-vue-1-20240424175837_single"
+      "origin-id": 127692,
+      "origin-key": "659cba54-c30a-4f51-9b96-4612a267267e",
+      "name": "intuitivecare-vue-1-20240425102612_single"
     },
     {
-      "origin-id": 353714,
-      "origin-key": "95f2468c-3c62-4ae9-87e1-0c0a859e9c99",
+      "origin-id": 127693,
+      "origin-key": "f5b9a073-48dd-4927-bcac-83ef3996412f",
       "name": "origin-storage-default"
     }
   ],
@@ -41,15 +41,15 @@
     "created": false,
     "rules": [
       {
-        "id": 409021,
+        "id": 239613,
         "name": "Main_Rule"
       },
       {
-        "id": 409022,
+        "id": 239614,
         "name": "Index_Rewrite_1"
       },
       {
-        "id": 409023,
+        "id": 239615,
         "name": "Index_Rewrite_2"
       }
     ]
